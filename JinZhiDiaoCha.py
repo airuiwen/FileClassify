@@ -139,8 +139,8 @@ def delWordContent(docx_file,dest_file, text_list):
 
 # 按间距中的绿色按钮以运行脚本。
 if __name__ == '__main__':
-    filePath = 'F:\\liwidis\\大学\\2022夏季\\2022夏工作文件\\7月\\合规自查-私募尽调\\'
-    target = 'F:\\liwidis\\大学\\2022夏季\\2022夏工作文件\\7月\\李博涵整理2\\'
+    filePath = ''
+    target = ''
     fileList = os.listdir(filePath)
     file_not_qualified_list = []
     for file in fileList: #各个子基金名字的文件
